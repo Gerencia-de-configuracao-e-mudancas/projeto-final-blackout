@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Kanit&family=Roboto+Condensed&family=Roboto+Mono:ital,wght@0,400;0,500;1,300&family=Rubik&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(25, 24, 22);
+  }
+  
+  
+  header {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(25, 24, 22);
+    align-items: center;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 15px;
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  #contato {
+    background-color: rgb(216, 0, 50);
+    border-radius: 5px;
+    padding: 15px;
+  }
+  
+   header a:hover {
+    height: 100%;
+    border-radius: 32px;
+    color: rgb(216, 0, 50)
+  }
+  
+  #contato:hover {
+    color: rgb(216, 0, 50);
+    background-color: white;
+    transition: all .6s;
+  }
+
+  .containerBox {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: 1200px;
+    background-color: rgb(42, 35, 35);
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-bottom: 90px;
+    font-family: 'Kanit', sans-serif;
+  }
+
+  .contatoBox {
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+  }
+
+
+  .line {
+    height: 1px;
+    width: 190px;
+    color: black;
+    background-color: rgb(216, 0, 50);
+  }
+
+  .genero, .sexo, .localizacao {
+    display: flex;
+    
+  }
+
+  .sexo {
+    margin-left: 10px;
+  }
+
+  .localizacao .local {
+    width: 44%;
+  }
+
+  .contatoBox input {
+    border-radius: 5px;
+    height: 60px;
+    width: 80%;
+    outline: none;
+  }
+
+  textarea {
+    height: 120px;
+    width: 80%;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+    outline: none;
+  }
+
+#enviar {
+  margin-top: 30px;
+  border-radius: 15px;
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.2rem;
+  background: transparent;
+  border: 0;
+  border: solid;
+  color: white;
+}
+
+
+#data-nascimento, #enviar:hover {
+  cursor: pointer;
+}
+
+#enviar:hover {
+  transition: transform 1s;
+  transform: scale(1.1) translateX(0);
+}
+
+  footer {
+    background-color: rgb(25, 24, 22);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+  }
