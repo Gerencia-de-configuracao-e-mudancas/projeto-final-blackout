@@ -8,6 +8,7 @@ body {
   overflow-x: hidden;
   display: block;
   color: white;
+  height: 100%;
 }
 
 
@@ -53,6 +54,11 @@ header a {
 }
 
 .container {
+  margin: 0;
+  padding: 0;
+}
+
+.box1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -65,7 +71,7 @@ header a {
   padding: 0 70px;
   width: 40%;
   margin-right: px;
-  margin-top: 150px;
+  margin-top: 80px;
   margin-bottom: 90px;
   text-align: left;
   font-family: 'Kanit', sans-serif;
@@ -102,11 +108,159 @@ header a {
 
 .phone img {
   display: flex;
-  margin-top: 40px;
+  margin-top: 80px;
   width: 300px;
   
 }
 
+.assinatura {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 50vw;
+  background-color: white;
+  color: black;
+
+}
+
+.assinatura h1 {
+  color: rgb(216, 0, 50);
+  font-size: 3.0rem;
+  margin-bottom: 0;
+  font-family: 'Kanit', sans-serif;
+}
+
+.assinatura #subtitulo {
+  color: black;
+  font-size: 1.3rem;
+  margin-top: 0;
+  font-family: 'Kanit', sans-serif;
+}
+
+.planos {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding: 60px;
+width: 80%;
+font-family: 'Kanit', sans-serif;
+}
+
+.anual, .mensal {
+  background-color: rgb(25, 24, 22);
+  border-radius: 10px 10px 0px 0px;
+  width: 70%;
+  text-align: left;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-right: 20px;
+}
+
+.anual #h4-anual, .mensal #h4-mensal {
+  color: rgb(216, 0, 50);
+  text-align: left;
+  font-size: 1.2rem;
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+
+
+.anual #validade, .mensal #validade {
+  margin-top: 0;
+  color: whitesmoke;
+  font-size: 0.8rem;
+  margin-left: 20px;
+}
+
+.parcela-anual, .parcela-mensal {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 300px;
+  background-color: white;
+  margin-top: 30px;
+}
+
+.parcela-anual #parcela, .parcela-mensal #parcela{
+  color: rgb(216, 0, 50);
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.preco-anual, .preco-mensal {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+.preco-anual #real, .preco-mensal #real {
+  font-size: 1.3rem;
+}
+
+.preco-anual #preco, .preco-mensal #preco {
+  font-size: 4.90rem;
+  margin: 0;
+}
+
+.preco-mensal #mes {
+  margin-top: 70px;
+  font-size: 1.3rem;
+}
+
+.preco-mensal {
+  padding: 57.4px;
+}
+
+#preco-completo {
+  text-align: center;
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.botao-anual, .botao-mensal {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-color: rgb(216, 0, 50);
+  width: 80%;
+  border-radius: 60px;
+}
+
+#botao-anual, #botao-mensal {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.botao-anual:hover, .botao-mensal:hover {
+  background-color: rgb(25, 24, 22);
+  transition: all .6s;
+}
+
+#botao-anual:hover, #botao-mensal:hover {
+  color: rgb(216, 0, 50);
+}
+
+.compra-segura {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  height: 60px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.whatsapp img{
+  display: flex;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  width: 70px;
+  height: 70px;
+
+}
 
 footer {
   background-color: rgb(25, 24, 22);
