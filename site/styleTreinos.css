@@ -43,7 +43,8 @@ header a {
  header a:hover {
   height: 100%;
   border-radius: 32px;
-  color: rgb(216, 0, 50)
+  color: rgb(216, 0, 50);
+  transition: all .6s;
 }
 
 #contato:hover {
