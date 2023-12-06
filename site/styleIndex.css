@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Kanit&family=Roboto+Condensed&family=Roboto+Mono:ital,wght@0,400;0,500;1,300&family=Rubik&display=swap');
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  display: block;
+  color: white;
+  height: 100%;
+}
+
+
+header {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(25, 24, 22);
+  align-items: center;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+
+
+header a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 15px;
+  font-family: 'Kanit', sans-serif;
+}
+
+#contato {
+  background-color: rgb(216, 0, 50);
+  border-radius: 5px;
+  padding: 15px;
+}
+
+ header a:hover {
+  height: 100%;
+  border-radius: 32px;
+  color: rgb(216, 0, 50);
+  transition: all .6s;
+}
+
+#contato:hover {
+  color: rgb(216, 0, 50);
+  background-color: white;
+  transition: all .6s;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(216, 0, 50)
+}
+
+.apresentacao   {
+  display: flex;
+  flex-direction: column;
+  padding: 0 70px;
+  width: 40%;
+  margin-right: px;
+  margin-top: 80px;
+  margin-bottom: 90px;
+  text-align: left;
+  font-family: 'Kanit', sans-serif;
+}
+
+.apresentacao h1{
+  font-size: 2.3rem;
+}
+
+.apresentacao p {
+  font-size: 1.2rem;
+}
+
+.apresentacao #italic {
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+#assine {
+  background-color: rgb(25, 24, 22);
+  width: 20%;
+  padding: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+}
+
+#assine:hover {
+  color: rgb(216, 0, 50);
+  background-color: white;
+  transition: .6s;
+}
+
+.phone img {
+  display: flex;
+  margin-top: 80px;
+  width: 300px;
+  
+}
+
+.assinatura {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 50vw;
+  background-color: white;
+  color: black;
+
+}
+
+.assinatura h1 {
+  color: rgb(216, 0, 50);
+  font-size: 3.0rem;
+  margin-bottom: 0;
+  font-family: 'Kanit', sans-serif;
+}
+
+.assinatura #subtitulo {
+  color: black;
+  font-size: 1.3rem;
+  margin-top: 0;
+  font-family: 'Kanit', sans-serif;
+}
+
+.planos {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding: 60px;
+width: 80%;
+font-family: 'Kanit', sans-serif;
+}
+
+.anual, .mensal, .semestral {
+  background-color: rgb(25, 24, 22);
+  border-radius: 10px 10px 0px 0px;
+  width: 70%;
+  text-align: left;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-right: 20px;
+}
+
+.anual #h4-anual, .mensal #h4-mensal, .semestral #h4-semestral {
+  color: rgb(216, 0, 50);
+  text-align: left;
+  font-size: 1.2rem;
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+
+
+.anual #validade, .mensal #validade, .semestral #validade {
+  margin-top: 0;
+  color: whitesmoke;
+  font-size: 0.8rem;
+  margin-left: 20px;
+}
+
+.parcela-anual, .parcela-mensal, .parcela-semestral {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 300px;
+  background-color: white;
+  margin-top: 30px;
+}
+
+.parcela-anual #parcela, .parcela-mensal #parcela, .parcela-semestral #parcela{
+  color: rgb(216, 0, 50);
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.preco-anual, .preco-mensal, .preco-semestral {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+.preco-anual #real, .preco-mensal #real, .preco-semestral #real {
+  font-size: 1.3rem;
+}
+
+.preco-anual #preco, .preco-mensal #preco, .preco-semestral #preco {
+  font-size: 4.90rem;
+  margin: 0;
+}
+
+.preco-mensal #mes {
+  margin-top: 70px;
+  font-size: 1.3rem;
+}
+
+.preco-mensal {
+  padding: 57.4px;
+}
+
+#preco-completo {
+  text-align: center;
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.botao-anual, .botao-mensal, .botao-semestral {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-color: rgb(216, 0, 50);
+  width: 80%;
+  border-radius: 60px;
+}
+
+#botao-anual, #botao-mensal, #botao-semestral {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.botao-anual:hover, .botao-mensal:hover, .botao-semestral:hover {
+  background-color: rgb(25, 24, 22);
+  transition: all .6s;
+}
+
+#botao-anual:hover, #botao-mensal:hover, #botao-semestral:hover {
+  color: rgb(216, 0, 50);
+}
+
+.compra-segura {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  height: 60px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.whatsapp img{
+  display: flex;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  width: 70px;
+  height: 70px;
+
+}
+
+footer {
+  background-color: rgb(25, 24, 22);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
