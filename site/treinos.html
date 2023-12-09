@@ -24,12 +24,76 @@
     <div class="treinos">
         <div class="apresentacao">
             <h1 id="h1-apresentacao"><span>Leve seus resultados</span> a outro nível</h1>
-            <p id="p-apresentacao">Descubra o poder da transformação pessoal com o Olympia Academy Supere desafios, alcance metas e conquiste a melhor versão de você. Baixe agora e comece sua jornada para um novo eu!</p>
-            <p id="p-apresentacao">Quer saber mais sobre e o Olympia Academy e como ele pode <span>transformar sua vida?</span></p>
-            <a id="a-apresentacao" href="#">FAÇA SEU PRÉ-CADASTRO</a>
+            <p id="p-apresentacao">Descubra o poder da transformação pessoal com o Olympia Academy Supere desafios,
+                alcance metas e conquiste a melhor versão de você. Baixe agora e comece sua jornada para um novo eu!</p>
+            <p id="p-apresentacao">Quer saber mais sobre e o Olympia Academy e como ele pode <span>transformar sua
+                    vida?</span></p>
+            <a id="a-apresentacao" href="#parte-contato">FAÇA SEU PRÉ-CADASTRO</a>
         </div>
         <div class="banner-treino">
             <img src="./imagens/banner-treino.png" alt="">
+        </div>
+    </div>
+
+    <div class="parte-contato" id="parte-contato">
+        <div class="box-contato">
+            <div class="pre-cadastro">
+                <h1>Faça o pré-cadastro</h1>
+                <div class="line"></div>
+                <form action="">
+                    <div class="responsavel">
+                        <h3>RESPONSÁVEL</h3>
+                        <p>Nome completo:</p>
+                        <input type="text" name="name" placeholder="Digite aqui seu nome completo" required>
+                        <p>Telefone:</p>
+                        <input type="text" name="telefone" placeholder="Ex: (99) 9 9999-9999" required>
+                    </div>
+                    <div class="acesso">
+                        <h3>TIPO DO ACESSO</h3>
+                        <div class="acesso-column">
+                            <div class="modalidade">
+                                <p>Modalidade*</p>
+                                <select name="select" onchange="Academia" required>
+                                    <option disabled selected value>Selecione</option>
+                                    <option value="academia">Academia</option>
+                                    <option value="personal">Personal</option>
+                                    <option value="aluno">Aluno</option>
+                                </select>
+
+                            </div>
+                            <div class="nome-academia">
+                                <p>Nome da sua academia*</p>
+                                <input type="text" name="academia" placeholder="Digite aqui o nome da sua academia"
+                                    required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cpf-cnpj">
+                        <p>CPF/CNPJ do Personal/Academia*</p>
+                        <input type="text" name="cpf" required>
+                    </div>
+                    <div class="acesso-plataforma">
+                        <h3>ACESSO A PLATAFORMA</h3>
+                        <p>Seu acesso será aprovado por um de nossos operadores</p>
+                        <div class="dados">
+                            <div class="email">
+                                <p>E-mail*</p>
+                                <input type="email" id="email" name="e-mail" placeholder="Digite aqui seu e-mail"
+                                    required>
+                            </div>
+                            <div class="password">
+                                <p>Senha*</p>
+                                <input type="password" name="pass" id="pass" placeholder="Senha" required>
+                                <div class="olhoJs">
+                                    <img id="olho" class="olho" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABDUlEQVQ4jd2SvW3DMBBGbwQVKlyo4BGC4FKFS4+TATKCNxAggkeoSpHSRQbwAB7AA7hQoUKFLH6E2qQQHfgHdpo0yQHX8T3exyPR/ytlQ8kOhgV7FvSx9+xglA3lM3DBgh0LPn/onbJhcQ0bv2SHlgVgQa/suFHVkCg7bm5gzB2OyvjlDFdDcoa19etZMN8Qp7oUDPEM2KFV1ZAQO2zPMBERO7Ra4JQNpRa4K4FDS0R0IdneCbQLb4/zh/c7QdH4NL40tPXrovFpjHQr6PJ6yr5hQV80PiUiIm1OKxZ0LICS8TWvpyyOf2DBQQtcXk8Zi3+JcKfNafVsjZ0WfGgJlZZQxZjdwzX+ykf6u/UF0Fwo5Apfcq8AAAAASUVORK5CYII=">
+                                    <script src="./olho.js"></script>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+            </form>
         </div>
     </div>
 
