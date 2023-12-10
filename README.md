@@ -1,1 +1,5 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/rps_RRg3)
+#Olympia Academy
+
+###Site que simula a venda de assinaturas de espaços de treinos, onde alunos podem comprar, academia e personais podem vender usando a plataforma oferecida pelo site.
+
+####Desenvolvido por Mayran Adriel e Hector Belchior como proejto final pra a disciplina de Gerência de Configuração e Mudanças.
