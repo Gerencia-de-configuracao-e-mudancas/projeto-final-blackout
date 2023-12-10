@@ -27,11 +27,10 @@ header {
     text-align: center;
     width: 100%;
     height: 15vh;
-    font-family: 'Kanit', sans-serif;
   }
 
-header img{
-  height: 50vh;
+header img {
+  height: 40vh;
 }
   #assine-agora {
     transition: all .6s;
