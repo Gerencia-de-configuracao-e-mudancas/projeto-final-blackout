@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleContato.css">
+    <link rel="stylesheet" href="HeaderAndFooter.css">
+    <title>Olympia Academy</title>
+</head>
+
+<body>
+    <header>
+        <img src="./imagens/logoolimpo.png" alt="">
+        <nav>
+            <ul>
+                <a href="./index.html">Início</a>
+                <a href="./treinos.html">Treinos</a>
+                <a id="contato" href="./contato.html">Contato</a>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="containerBox">
+
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <div class="contatoBox">
+                <div class="titulo">
+                    <h1>Fale conosco</h1>
+                    <div class="line"></div>
+                </div>
+                <p>Nome completo:</p>
+                <input type="text" name="$nome" placeholder="Digite aqui o seu nome completo" required>
+                <p>Email:</p>
+                <input type="email" name="$e-mail" placeholder="Digite aqui seu e-mail" required>
+                <p>Telefone:</p>
+                <input type="text" name="$telefone" placeholder="Ex: (99) 9 9999-9999" required>
+                <div class="genero">
+                    <p>Sexo:</p>
+                    <div class="sexo">
+                        <input type="radio" name="$sexo" value="Masculino"  required>
+                        <p>Masculino</p>
+                    </div>
+                    <div class="sexo">
+                        <input type="radio" name="$sexo" value="Feminino" required>
+                        <p>Feminino</p>
+                    </div>
+                    <div class="sexo">
+                        <input type="radio" name="$sexo" value="Outros" required>
+                        <p>Outros</p>
+                    </div>
+                </div>
+                <p>Data de nascimento:</p>
+                <input id="data-nascimento" type="date" name="$data-nascimento" required>
+                <div class="localizacao">
+                    <div class="local">
+                        <p>Cidade: </p>
+                        <input type="text" name="$cidade" placeholder="Digite aqui sua cidade" required>
+                    </div>
+                    <div class="local">
+                        <p>Estado: </p>
+                        <input type="text" name="$estado" placeholder="Digite aqui seu estado" required>
+                    </div>
+                </div>
+                <p>Mensagem: </p>
+                <textarea name="$mensagem" id="mensagem" cols="36" rows="5" placeholder="Digite aqui sua mensagem"
+                    required></textarea>
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:3000/site/obrigado.html">
+                <input id="enviar" type="submit" value="ENVIAR">
+                <input type="hidden" name="accessKey" value="47754a22-e380-478d-91c7-42c5186121ad">
+                <input type="text" name="honeypot" style="display: none;">
+            </div>
+
+        </form>
+
+    </div>
+
+    <div class="whatsapp">
+        <a href="https://wa.me/5583991880776?text=Ol%C3%A1%2C+gostaria+de+tirar+uma+d%C3%BAvida."><img
+                src="imagens/whatsapp.png" alt=""></a>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Olympia Academy. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>

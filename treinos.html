@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleTreinos.css">
+    <link rel="stylesheet" href="HeaderAndFooter.css">
+    <title>Olympia Academy</title>
+</head>
+
+<body>
+    <header>
+        <img src="./imagens/logoolimpo.png" alt="">
+        <nav>
+            <ul>
+                <a href="./index.html">Início</a>
+                <a href="./treinos.html">Treinos</a>
+                <a id="contato" href="./contato.html">Contato</a>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="treinos">
+        <div class="apresentacao">
+            <h1 id="h1-apresentacao"><span>Leve seus resultados</span> a outro nível</h1>
+            <p id="p-apresentacao">Descubra o poder da transformação pessoal com o Olympia Academy Supere desafios,
+                alcance metas e conquiste a melhor versão de você. Baixe agora e comece sua jornada para um novo eu!</p>
+            <p id="p-apresentacao">Quer saber mais sobre e o Olympia Academy e como ele pode <span>transformar sua
+                    vida?</span></p>
+            <a id="a-apresentacao" href="#pre-cadastro">FAÇA SEU PRÉ-CADASTRO</a>
+        </div>
+        <div class="banner-treino">
+            <img src="./imagens/banner-treino.png" alt="">
+        </div>
+    </div>
+
+    <div class="parte-contato" id="parte-contato">
+        <div class="box-contato">
+            <div class="pre-cadastro" id="pre-cadastro">
+                <h1>Faça o pré-cadastro</h1>
+                <div class="line"></div>
+                <form action="" id="formulario">
+                    <div class="responsavel">
+                        <h3>RESPONSÁVEL</h3>
+                        <p>Nome completo:</p>
+                        <input type="text" name="name" placeholder="Digite aqui seu nome completo" required>
+                        <p>Telefone:</p>
+                        <input type="text" name="telefone" placeholder="Ex: (99) 9 9999-9999" required>
+                    </div>
+                    <div class="acesso">
+                        <h3>TIPO DO ACESSO</h3>
+                        <div class="acesso-column">
+                            <div class="modalidade">
+                                <p>Modalidade*</p>
+                                <select name="select" onchange="Academia" required>
+                                    <option disabled selected value>Selecione</option>
+                                    <option value="academia">Academia</option>
+                                    <option value="personal">Personal</option>
+                                    <option value="aluno">Aluno</option>
+                                </select>
+
+                            </div>
+                            <div class="nome-academia">
+                                <p>Nome da sua academia*</p>
+                                <input type="text" name="academia" placeholder="Digite aqui o nome da sua academia"
+                                    required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cpf-cnpj">
+                        <p>CPF/CNPJ do Personal/Academia*</p>
+                        <input type="text" name="cpf" required>
+                    </div>
+                    <div class="acesso-plataforma">
+                        <h3>ACESSO A PLATAFORMA</h3>
+                        <p>Seu acesso será aprovado por um de nossos operadores</p>
+                        <div class="dados">
+                            <div class="email">
+                                <p>E-mail*</p>
+                                <input type="email" id="email" name="e-mail" placeholder="Digite aqui seu e-mail"
+                                    required>
+                            </div>
+                            <div class="password">
+                                <p>Senha*</p>
+                                <input type="password" name="pass" id="pass" placeholder="Senha" required>
+
+                            </div>
+                            <div class="olhoJs">
+                                <img id="olho" class="olho"
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABDUlEQVQ4jd2SvW3DMBBGbwQVKlyo4BGC4FKFS4+TATKCNxAggkeoSpHSRQbwAB7AA7hQoUKFLH6E2qQQHfgHdpo0yQHX8T3exyPR/ytlQ8kOhgV7FvSx9+xglA3lM3DBgh0LPn/onbJhcQ0bv2SHlgVgQa/suFHVkCg7bm5gzB2OyvjlDFdDcoa19etZMN8Qp7oUDPEM2KFV1ZAQO2zPMBERO7Ra4JQNpRa4K4FDS0R0IdneCbQLb4/zh/c7QdH4NL40tPXrovFpjHQr6PJ6yr5hQV80PiUiIm1OKxZ0LICS8TWvpyyOf2DBQQtcXk8Zi3+JcKfNafVsjZ0WfGgJlZZQxZjdwzX+ykf6u/UF0Fwo5Apfcq8AAAAASUVORK5CYII=">
+                                <script src="./olho.js"></script>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="endereco">
+                        <h3>SEU ENDEREÇO</h3>
+                        <div class="rua-numero">
+                            <div class="rua">
+                                <p>Rua</p>
+                                <input type="text" name="rua" id="rua" placeholder="Informe a rua" required>
+                            </div>
+                            <div class="numero-casa">
+                                <p>Número</p>
+                                <input type="text" name="numero-casa" placeholder="N°" id="numero-casa" required>
+                            </div>
+                        </div>
+                        <p>Complemento</p>
+                        <input type="text" name="complemento" placeholder="Digite aqui o complemento">
+                        <div class="bairro-cidade-estado">
+                            <div class="bairro">
+                                <p>Bairro</p>
+                                <input type="text" name="bairro" id="bairro" placeholder="Informe o bairro" required>
+                            </div>
+                            <div class="cidade">
+                                <p>Cidade</p>
+                                <input type="text" name="cidade" placeholder="Informe a cidade" required>
+                            </div>
+                            <div class="estado">
+                                <p>Estado</p>
+                                <input type="text" name="estado" placeholder="Informe o estado" required>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="submit" id="submit" value="ENVIAR">
+                </form>
+            </div>
+        </div>
+
+        <div class="whatsapp">
+            <a href="https://wa.me/5583991880776?text=Ol%C3%A1%2C+gostaria+de+tirar+uma+d%C3%BAvida."><img
+                    src="imagens/whatsapp.png" alt=""></a>
+        </div>
+
+        <footer>
+            <p>&copy; 2023 Olympia Academy. Todos os direitos reservados.</p>
+        </footer>
+</body>
+
+</html>
