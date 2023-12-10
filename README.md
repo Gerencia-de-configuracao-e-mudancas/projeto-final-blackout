@@ -1,5 +1,7 @@
-Olympia Academy
+# Olympia Academy
 
-Site que simula a venda de assinaturas de espaços de treinos, onde alunos podem comprar, academia e personais podem vender usando a plataforma oferecida pelo site.
+## Site que simula a venda de assinaturas de espaços de treinos, onde alunos podem comprar, academia e personais podem vender usando a plataforma oferecida pelo site.
 
-Desenvolvido por Mayran Adriel e Hector Belchior como proejto final pra a disciplina de Gerência de Configuração e Mudanças.
+#### Desenvolvido por Mayran Adriel e Hector Belchior como proejto final pra a disciplina de Gerência de Configuração e Mudanças.
+
+[Disponível aqui](https://gerencia-de-configuracao-e-mudancas.github.io/projeto-final-blackout/)
