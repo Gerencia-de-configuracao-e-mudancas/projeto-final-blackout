@@ -125,6 +125,8 @@ body {
 }
 
 #enviar:hover {
-  transition: transform 1s;
-  transform: scale(1.1) translateX(0);
+  font-size: 1.8rem;
+    box-shadow: rgb(216, 0, 50)  0px 5px 15px;
+    background-color: black;
+    transition: all .6s;
 }

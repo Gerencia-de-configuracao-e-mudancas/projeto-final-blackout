@@ -110,12 +110,17 @@ span {
     width: 99.5%;
     height: 60px;
     border-radius: 15px;
+    outline: none;
 }
 
 .pre-cadastro select {
     height: 62px;
-    border-radius: 5px;
+    border-radius: 15px;
+    outline: none;
+}
 
+#submit {
+    cursor: pointer;
 }
 
 .pre-cadastro .responsavel {
@@ -219,6 +224,7 @@ form #submit {
 form #submit:hover {
     font-size: 1.8rem;
     box-shadow: rgb(216, 0, 50)  0px 5px 15px;
+    background-color: black;
     transition: all .6s;
 }
 
